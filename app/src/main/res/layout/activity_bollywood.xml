@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".bollywood">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="25sp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bollywood"
+        android:textColor="#FFC107"
+        android:textSize="35sp"
+        android:fontFamily="@font/audiowide" />
+
+    <RelativeLayout
+        android:layout_width="411dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="35sp">
+
+        <ImageView
+            android:id="@+id/iv_tumbbad"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="81dp"
+            android:layout_toStartOf="@+id/iv_drishyam"
+            android:src="@drawable/tumbbad" />
+
+        <TextView
+            android:id="@+id/tv_tumbbad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_tumbbad"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="108dp"
+            android:layout_toStartOf="@+id/tv_drishyam"
+            android:fontFamily="@font/audiowide"
+            android:text="    TUMBBAD"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_tumbbad"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_below="@+id/tv_tumbbad"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="142dp"
+            android:layout_toStartOf="@+id/bt_drishyam"
+            android:fontFamily="@font/audiowide"
+            android:text="PLAY" />
+
+        <ImageView
+            android:id="@+id/iv_drishyam"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="17dp"
+            android:src="@drawable/drishyam" />
+
+        <TextView
+            android:id="@+id/tv_drishyam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_drishyam"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="50dp"
+            android:fontFamily="@font/audiowide"
+            android:text="DRISHYAM"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_drishyam"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_below="@+id/tv_drishyam"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="47dp"
+            android:fontFamily="@font/audiowide"
+            android:text="play" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="411dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="35sp">
+
+        <ImageView
+            android:id="@+id/iv_airlift"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="81dp"
+            android:layout_toStartOf="@+id/iv_bbhai"
+            android:src="@drawable/airlift" />
+
+        <TextView
+            android:id="@+id/tv_airlift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_airlift"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="1dp"
+            android:fontFamily="@font/audiowide"
+            android:text="    AIRLIFT"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_airlift"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_below="@+id/tv_airlift"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="142dp"
+            android:layout_toStartOf="@+id/bt_bbhai"
+            android:fontFamily="@font/audiowide"
+            android:text="PLAY" />
+
+        <ImageView
+            android:id="@+id/iv_bbhai"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="17dp"
+            android:src="@drawable/bbhai" />
+
+        <TextView
+            android:id="@+id/tv_bbhai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_bbhai"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="23dp"
+            android:fontFamily="@font/audiowide"
+            android:text="Bajrangi Bhaijaan"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_bbhai"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_below="@+id/tv_bbhai"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="47dp"
+            android:fontFamily="@font/audiowide"
+            android:text="play" />
+    </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

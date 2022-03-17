@@ -1,0 +1,1851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".hollywood">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="25sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hollywood"
+            android:textColor="#FFC107"
+            android:textSize="35sp"
+            android:fontFamily="@font/audiowide" />
+
+        <RelativeLayout
+            android:layout_width="411dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="35sp">
+
+            <ImageView
+                android:id="@+id/iv_pris"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="81dp"
+                android:layout_toStartOf="@+id/iv_NWH"
+                android:src="@drawable/pris" />
+
+            <TextView
+                android:id="@+id/tv_prisoner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_pris"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="108dp"
+                android:layout_toStartOf="@+id/tv_NWH"
+                android:fontFamily="@font/audiowide"
+                android:text="PRISONERS"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_prisoner"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_prisoner"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="142dp"
+                android:layout_toStartOf="@+id/bt_NWH"
+                android:fontFamily="@font/audiowide"
+                android:text="PLAY" />
+
+            <ImageView
+                android:id="@+id/iv_NWH"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/spider"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="17dp" />
+
+            <TextView
+                android:id="@+id/tv_NWH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_NWH"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="24dp"
+                android:fontFamily="@font/audiowide"
+                android:text="SpiderMan NWH"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_NWH"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_NWH"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="47dp"
+                android:fontFamily="@font/audiowide"
+                android:text="play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="411dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="35sp">
+
+            <ImageView
+                android:id="@+id/iv_joker"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="81dp"
+                android:layout_toStartOf="@+id/iv_inception"
+                android:src="@drawable/jokr" />
+
+            <TextView
+                android:id="@+id/tv_joker"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_joker"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="108dp"
+                android:layout_toStartOf="@+id/tv_inception"
+                android:fontFamily="@font/audiowide"
+                android:text="     JOKER"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_joker"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_joker"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="142dp"
+                android:layout_toStartOf="@+id/bt_inception"
+                android:fontFamily="@font/audiowide"
+                android:text="PLAY" />
+
+            <ImageView
+                android:id="@+id/iv_inception"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/incept"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="17dp" />
+
+            <TextView
+                android:id="@+id/tv_inception"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_inception"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="52dp"
+                android:text="INCEPTION"
+                android:textSize="15sp"
+                android:fontFamily="@font/audiowide"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_inception"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_inception"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="47dp"
+                android:fontFamily="@font/audiowide"
+                android:text="play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="411dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="35sp">
+
+            <ImageView
+                android:id="@+id/iv_shutter_island"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="81dp"
+                android:layout_toStartOf="@+id/iv_looper"
+                android:src="@drawable/shut_island" />
+
+            <TextView
+                android:id="@+id/tv_shutter_island"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_shutter_island"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="108dp"
+                android:layout_toStartOf="@+id/tv_looper"
+                android:fontFamily="@font/audiowide"
+                android:text="Shutter Island"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_shutter_island"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_shutter_island"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="142dp"
+                android:layout_toStartOf="@+id/bt_looper"
+                android:fontFamily="@font/audiowide"
+                android:text="PLAY" />
+
+            <ImageView
+                android:id="@+id/iv_looper"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/looper"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="17dp" />
+
+            <TextView
+                android:id="@+id/tv_looper"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_looper"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="52dp"
+                android:text="   LOOPER"
+                android:textSize="15sp"
+                android:fontFamily="@font/audiowide"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_looper"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_looper"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="47dp"
+                android:fontFamily="@font/audiowide"
+                android:text="play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="411dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="35sp">
+
+            <ImageView
+                android:id="@+id/iv_eot"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="81dp"
+                android:layout_toStartOf="@+id/iv_lucy"
+                android:src="@drawable/eot1" />
+
+            <TextView
+                android:id="@+id/tv_eot"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_eot"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="104dp"
+                android:layout_toStartOf="@+id/tv_lucy"
+                android:fontFamily="@font/audiowide"
+                android:text="Edge Of Tomorrow"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_eot"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_eot"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="142dp"
+                android:layout_toStartOf="@+id/bt_lucy"
+                android:fontFamily="@font/audiowide"
+                android:text="PLAY" />
+
+            <ImageView
+                android:id="@+id/iv_lucy"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/lucy1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="17dp" />
+
+            <TextView
+                android:id="@+id/tv_lucy"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_lucy"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="52dp"
+                android:text="  LUCY"
+                android:textSize="15sp"
+                android:fontFamily="@font/audiowide"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_lucy"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_lucy"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="47dp"
+                android:fontFamily="@font/audiowide"
+                android:text="play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="411dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="35sp">
+
+            <ImageView
+                android:id="@+id/iv_shawshank_redemption"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="81dp"
+                android:layout_toStartOf="@+id/iv_parasite"
+                android:src="@drawable/shaw_red" />
+
+            <TextView
+                android:id="@+id/tv_shawshank_redemption"
+                android:layout_width="171dp"
+                android:layout_height="24dp"
+                android:layout_below="@+id/iv_shawshank_redemption"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="73dp"
+                android:layout_toStartOf="@+id/tv_parasite"
+                android:fontFamily="@font/audiowide"
+                android:text="Shawshank Redemption"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_shawshank_redemption"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_shawshank_redemption"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="143dp"
+                android:layout_toStartOf="@+id/bt_parasite"
+                android:fontFamily="@font/audiowide"
+                android:text="PLAY" />
+
+            <ImageView
+                android:id="@+id/iv_parasite"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/parasite"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="17dp" />
+
+            <TextView
+                android:id="@+id/tv_parasite"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_parasite"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="52dp"
+                android:text="PARASITE"
+                android:textSize="15sp"
+                android:fontFamily="@font/audiowide"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_parasite"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_parasite"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="47dp"
+                android:fontFamily="@font/audiowide"
+                android:text="play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="411dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="35sp">
+
+            <ImageView
+                android:id="@+id/iv_escape_room"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="81dp"
+                android:layout_toStartOf="@+id/iv_matrix"
+                android:src="@drawable/escape" />
+
+            <TextView
+                android:id="@+id/tv_escape_room"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_escape_room"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="108dp"
+                android:layout_toStartOf="@+id/tv_matrix"
+                android:fontFamily="@font/audiowide"
+                android:text="Escape Room"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_escape_room"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_escape_room"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="142dp"
+                android:layout_toStartOf="@+id/bt_matrix"
+                android:fontFamily="@font/audiowide"
+                android:text="PLAY" />
+
+            <ImageView
+                android:id="@+id/iv_matrix"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/matrix"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="17dp" />
+
+            <TextView
+                android:id="@+id/tv_matrix"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_matrix"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/audiowide"
+                android:text="THE MATRIX"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_matrix"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_matrix"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="47dp"
+                android:fontFamily="@font/audiowide"
+                android:text="play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="411dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="35sp">
+
+            <ImageView
+                android:id="@+id/iv_mat_relo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="81dp"
+                android:layout_toStartOf="@+id/iv_mat_revo"
+                android:src="@drawable/matrix_reloaded" />
+
+            <TextView
+                android:id="@+id/tv_mat_relo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_mat_relo"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/audiowide"
+                android:text="The Matrix Reloaded"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_mat_relo"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_mat_relo"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="142dp"
+                android:layout_toStartOf="@+id/bt_mat_revo"
+                android:fontFamily="@font/audiowide"
+                android:text="PLAY" />
+
+            <ImageView
+                android:id="@+id/iv_mat_revo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/matrix_revo"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="17dp" />
+
+            <TextView
+                android:id="@+id/tv_mat_revo"
+                android:layout_width="145dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/iv_mat_revo"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/audiowide"
+                android:text="The Matrix Revolution"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_mat_revo"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_mat_revo"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="47dp"
+                android:fontFamily="@font/audiowide"
+                android:text="play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="411dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="35sp">
+
+            <ImageView
+                android:id="@+id/iv_signs"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="81dp"
+                android:layout_toStartOf="@+id/iv_sixth"
+                android:src="@drawable/signs" />
+
+            <TextView
+                android:id="@+id/tv_signs"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_signs"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="108dp"
+                android:layout_toStartOf="@+id/tv_sixth"
+                android:fontFamily="@font/audiowide"
+                android:text="        SIGNS"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_signs"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_signs"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="142dp"
+                android:layout_toStartOf="@+id/bt_sixth"
+                android:fontFamily="@font/audiowide"
+                android:text="PLAY" />
+
+            <ImageView
+                android:id="@+id/iv_sixth"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/sixth_sense"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="17dp" />
+
+            <TextView
+                android:id="@+id/tv_sixth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_sixth"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="22dp"
+                android:fontFamily="@font/audiowide"
+                android:text="The Sixth-Sense"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_sixth"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_sixth"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="47dp"
+                android:fontFamily="@font/audiowide"
+                android:text="play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="411dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="35sp">
+
+            <ImageView
+                android:id="@+id/iv_unbreakable"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="81dp"
+                android:layout_toStartOf="@+id/iv_split"
+                android:src="@drawable/unbreakable" />
+
+            <TextView
+                android:id="@+id/tv_unbreakable"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_unbreakable"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="95dp"
+                android:layout_toStartOf="@+id/tv_split"
+                android:fontFamily="@font/audiowide"
+                android:text="  UNBREAKABLE"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_unbreakable"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_unbreakable"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="142dp"
+                android:layout_toStartOf="@+id/bt_split"
+                android:fontFamily="@font/audiowide"
+                android:text="PLAY" />
+
+            <ImageView
+                android:id="@+id/iv_split"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/split"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="17dp" />
+
+            <TextView
+                android:id="@+id/tv_split"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_split"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="52dp"
+                android:text="      SPLIT"
+                android:textSize="15sp"
+                android:fontFamily="@font/audiowide"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_split"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_split"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="47dp"
+                android:fontFamily="@font/audiowide"
+                android:text="play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="411dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="35sp">
+
+            <ImageView
+                android:id="@+id/iv_glass"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="81dp"
+                android:layout_toStartOf="@+id/iv_searching"
+                android:src="@drawable/glass" />
+
+            <TextView
+                android:id="@+id/tv_glass"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_glass"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="108dp"
+                android:layout_toStartOf="@+id/tv_searching"
+                android:fontFamily="@font/audiowide"
+                android:text="      GLASS"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_glass"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_glass"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="142dp"
+                android:layout_toStartOf="@+id/bt_searching"
+                android:fontFamily="@font/audiowide"
+                android:text="PLAY" />
+
+            <ImageView
+                android:id="@+id/iv_searching"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/searching"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="17dp" />
+
+            <TextView
+                android:id="@+id/tv_searching"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_searching"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="46dp"
+                android:fontFamily="@font/audiowide"
+                android:text="SEARCHING"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_searching"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_searching"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="47dp"
+                android:fontFamily="@font/audiowide"
+                android:text="play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="411dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="35sp">
+
+            <ImageView
+                android:id="@+id/iv_batman_begins"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="81dp"
+                android:layout_toStartOf="@+id/iv_dark_knight"
+                android:src="@drawable/batman_begins" />
+
+            <TextView
+                android:id="@+id/tv_batman_begins"
+                android:layout_width="161dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_batman_begins"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="-2dp"
+                android:fontFamily="@font/audiowide"
+                android:text="BATMAN BEGINS"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_batman_begins"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_batman_begins"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="142dp"
+                android:layout_toStartOf="@+id/bt_dark_knight"
+                android:fontFamily="@font/audiowide"
+                android:text="PLAY" />
+
+            <ImageView
+                android:id="@+id/iv_dark_knight"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="17dp"
+                android:src="@drawable/dark_knight" />
+
+            <TextView
+                android:id="@+id/tv_dark_knight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_dark_knight"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="27dp"
+                android:fontFamily="@font/audiowide"
+                android:text="The Dark Knight"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_dark_knight"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_dark_knight"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="47dp"
+                android:fontFamily="@font/audiowide"
+                android:text="play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="411dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="35sp">
+
+            <ImageView
+                android:id="@+id/iv_dark_rises"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="81dp"
+                android:layout_toStartOf="@+id/iv_man_of_steel"
+                android:src="@drawable/dark_knight_rises" />
+
+            <TextView
+                android:id="@+id/tv_dark_rises"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_dark_rises"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/audiowide"
+                android:text="The Dark Knight Rises"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_dark_rises"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_dark_rises"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="142dp"
+                android:layout_toStartOf="@+id/bt_man_of_steel"
+                android:fontFamily="@font/audiowide"
+                android:text="PLAY" />
+
+            <ImageView
+                android:id="@+id/iv_man_of_steel"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/man_of_steel"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="17dp" />
+
+            <TextView
+                android:id="@+id/tv_man_of_steel"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_man_of_steel"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="21dp"
+                android:fontFamily="@font/audiowide"
+                android:text="Man Of Steel"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_man_of_steel"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@+id/tv_man_of_steel"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="47dp"
+                android:fontFamily="@font/audiowide"
+                android:text="play" />
+        </RelativeLayout>
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="411dp"-->
+<!--            android:layout_height="250dp"-->
+<!--            android:layout_marginTop="35sp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_1"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_marginStart="13dp"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="81dp"-->
+<!--                android:layout_toStartOf="@+id/iv_2"-->
+<!--                android:src="@drawable/prisoner" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_prisoner"-->
+<!--                android:layout_width="136dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_1"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="28dp"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="108dp"-->
+<!--                android:layout_toStartOf="@+id/tv_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PRISONERS"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="15sp" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_prisoner"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_prisoner"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="47dp"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="142dp"-->
+<!--                android:layout_toStartOf="@+id/bt_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PLAY" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_2"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="17dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_qwerty"-->
+<!--                android:layout_width="94dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_2"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="52dp"-->
+<!--                android:text="QWERTY"-->
+<!--                android:textSize="15sp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:textColor="@color/white" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_qwerty"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_qwerty"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="47dp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="play" />-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="411dp"-->
+<!--            android:layout_height="250dp"-->
+<!--            android:layout_marginTop="35sp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_1"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_marginStart="13dp"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="81dp"-->
+<!--                android:layout_toStartOf="@+id/iv_2"-->
+<!--                android:src="@drawable/prisoner" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_prisoner"-->
+<!--                android:layout_width="136dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_1"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="28dp"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="108dp"-->
+<!--                android:layout_toStartOf="@+id/tv_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PRISONERS"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="15sp" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_prisoner"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_prisoner"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="47dp"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="142dp"-->
+<!--                android:layout_toStartOf="@+id/bt_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PLAY" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_2"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="17dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_qwerty"-->
+<!--                android:layout_width="94dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_2"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="52dp"-->
+<!--                android:text="QWERTY"-->
+<!--                android:textSize="15sp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:textColor="@color/white" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_qwerty"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_qwerty"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="47dp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="play" />-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="411dp"-->
+<!--            android:layout_height="250dp"-->
+<!--            android:layout_marginTop="35sp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_1"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_marginStart="13dp"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="81dp"-->
+<!--                android:layout_toStartOf="@+id/iv_2"-->
+<!--                android:src="@drawable/prisoner" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_prisoner"-->
+<!--                android:layout_width="136dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_1"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="28dp"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="108dp"-->
+<!--                android:layout_toStartOf="@+id/tv_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PRISONERS"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="15sp" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_prisoner"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_prisoner"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="47dp"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="142dp"-->
+<!--                android:layout_toStartOf="@+id/bt_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PLAY" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_2"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="17dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_qwerty"-->
+<!--                android:layout_width="94dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_2"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="52dp"-->
+<!--                android:text="QWERTY"-->
+<!--                android:textSize="15sp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:textColor="@color/white" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_qwerty"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_qwerty"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="47dp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="play" />-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="411dp"-->
+<!--            android:layout_height="250dp"-->
+<!--            android:layout_marginTop="35sp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_1"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_marginStart="13dp"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="81dp"-->
+<!--                android:layout_toStartOf="@+id/iv_2"-->
+<!--                android:src="@drawable/prisoner" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_prisoner"-->
+<!--                android:layout_width="136dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_1"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="28dp"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="108dp"-->
+<!--                android:layout_toStartOf="@+id/tv_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PRISONERS"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="15sp" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_prisoner"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_prisoner"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="47dp"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="142dp"-->
+<!--                android:layout_toStartOf="@+id/bt_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PLAY" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_2"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="17dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_qwerty"-->
+<!--                android:layout_width="94dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_2"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="52dp"-->
+<!--                android:text="QWERTY"-->
+<!--                android:textSize="15sp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:textColor="@color/white" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_qwerty"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_qwerty"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="47dp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="play" />-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="411dp"-->
+<!--            android:layout_height="250dp"-->
+<!--            android:layout_marginTop="35sp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_1"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_marginStart="13dp"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="81dp"-->
+<!--                android:layout_toStartOf="@+id/iv_2"-->
+<!--                android:src="@drawable/prisoner" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_prisoner"-->
+<!--                android:layout_width="136dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_1"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="28dp"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="108dp"-->
+<!--                android:layout_toStartOf="@+id/tv_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PRISONERS"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="15sp" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_prisoner"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_prisoner"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="47dp"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="142dp"-->
+<!--                android:layout_toStartOf="@+id/bt_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PLAY" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_2"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="17dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_qwerty"-->
+<!--                android:layout_width="94dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_2"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="52dp"-->
+<!--                android:text="QWERTY"-->
+<!--                android:textSize="15sp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:textColor="@color/white" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_qwerty"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_qwerty"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="47dp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="play" />-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="411dp"-->
+<!--            android:layout_height="250dp"-->
+<!--            android:layout_marginTop="35sp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_1"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_marginStart="13dp"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="81dp"-->
+<!--                android:layout_toStartOf="@+id/iv_2"-->
+<!--                android:src="@drawable/prisoner" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_prisoner"-->
+<!--                android:layout_width="136dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_1"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="28dp"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="108dp"-->
+<!--                android:layout_toStartOf="@+id/tv_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PRISONERS"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="15sp" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_prisoner"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_prisoner"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="47dp"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="142dp"-->
+<!--                android:layout_toStartOf="@+id/bt_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PLAY" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_2"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="17dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_qwerty"-->
+<!--                android:layout_width="94dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_2"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="52dp"-->
+<!--                android:text="QWERTY"-->
+<!--                android:textSize="15sp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:textColor="@color/white" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_qwerty"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_qwerty"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="47dp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="play" />-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="411dp"-->
+<!--            android:layout_height="250dp"-->
+<!--            android:layout_marginTop="35sp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_1"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_marginStart="13dp"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="81dp"-->
+<!--                android:layout_toStartOf="@+id/iv_2"-->
+<!--                android:src="@drawable/prisoner" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_prisoner"-->
+<!--                android:layout_width="136dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_1"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="28dp"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="108dp"-->
+<!--                android:layout_toStartOf="@+id/tv_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PRISONERS"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="15sp" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_prisoner"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_prisoner"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="47dp"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="142dp"-->
+<!--                android:layout_toStartOf="@+id/bt_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PLAY" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_2"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="17dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_qwerty"-->
+<!--                android:layout_width="94dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_2"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="52dp"-->
+<!--                android:text="QWERTY"-->
+<!--                android:textSize="15sp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:textColor="@color/white" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_qwerty"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_qwerty"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="47dp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="play" />-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="411dp"-->
+<!--            android:layout_height="250dp"-->
+<!--            android:layout_marginTop="35sp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_1"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_marginStart="13dp"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="81dp"-->
+<!--                android:layout_toStartOf="@+id/iv_2"-->
+<!--                android:src="@drawable/prisoner" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_prisoner"-->
+<!--                android:layout_width="136dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_1"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="28dp"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="108dp"-->
+<!--                android:layout_toStartOf="@+id/tv_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PRISONERS"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="15sp" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_prisoner"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_prisoner"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="47dp"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="142dp"-->
+<!--                android:layout_toStartOf="@+id/bt_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PLAY" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_2"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="17dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_qwerty"-->
+<!--                android:layout_width="94dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_2"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="52dp"-->
+<!--                android:text="QWERTY"-->
+<!--                android:textSize="15sp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:textColor="@color/white" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_qwerty"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_qwerty"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="47dp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="play" />-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="411dp"-->
+<!--            android:layout_height="250dp"-->
+<!--            android:layout_marginTop="35sp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_1"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_marginStart="13dp"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="81dp"-->
+<!--                android:layout_toStartOf="@+id/iv_2"-->
+<!--                android:src="@drawable/prisoner" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_prisoner"-->
+<!--                android:layout_width="136dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_1"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="28dp"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="108dp"-->
+<!--                android:layout_toStartOf="@+id/tv_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PRISONERS"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="15sp" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_prisoner"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_prisoner"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="47dp"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="142dp"-->
+<!--                android:layout_toStartOf="@+id/bt_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PLAY" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_2"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="17dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_qwerty"-->
+<!--                android:layout_width="94dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_2"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="52dp"-->
+<!--                android:text="QWERTY"-->
+<!--                android:textSize="15sp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:textColor="@color/white" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_qwerty"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_qwerty"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="47dp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="play" />-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="411dp"-->
+<!--            android:layout_height="250dp"-->
+<!--            android:layout_marginTop="35sp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_1"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_marginStart="13dp"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="81dp"-->
+<!--                android:layout_toStartOf="@+id/iv_2"-->
+<!--                android:src="@drawable/prisoner" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_prisoner"-->
+<!--                android:layout_width="136dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_1"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="28dp"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="108dp"-->
+<!--                android:layout_toStartOf="@+id/tv_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PRISONERS"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="15sp" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_prisoner"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_prisoner"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="47dp"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="142dp"-->
+<!--                android:layout_toStartOf="@+id/bt_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PLAY" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_2"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="17dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_qwerty"-->
+<!--                android:layout_width="94dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_2"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="52dp"-->
+<!--                android:text="QWERTY"-->
+<!--                android:textSize="15sp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:textColor="@color/white" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_qwerty"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_qwerty"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="47dp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="play" />-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="411dp"-->
+<!--            android:layout_height="250dp"-->
+<!--            android:layout_marginTop="35sp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_1"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_marginStart="13dp"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="81dp"-->
+<!--                android:layout_toStartOf="@+id/iv_2"-->
+<!--                android:src="@drawable/prisoner" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_prisoner"-->
+<!--                android:layout_width="136dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_1"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="28dp"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="108dp"-->
+<!--                android:layout_toStartOf="@+id/tv_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PRISONERS"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="15sp" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_prisoner"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_prisoner"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="47dp"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="142dp"-->
+<!--                android:layout_toStartOf="@+id/bt_qwerty"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="PLAY" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_2"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="17dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_qwerty"-->
+<!--                android:layout_width="94dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/iv_2"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:layout_marginEnd="52dp"-->
+<!--                android:text="QWERTY"-->
+<!--                android:textSize="15sp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:textColor="@color/white" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/bt_qwerty"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_below="@+id/tv_qwerty"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginEnd="47dp"-->
+<!--                android:fontFamily="@font/audiowide"-->
+<!--                android:text="play" />-->
+<!--        </RelativeLayout>-->
+
+
+    </LinearLayout>
+
+</ScrollView>
