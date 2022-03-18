@@ -180,6 +180,84 @@
             android:fontFamily="@font/audiowide"
             android:text="play" />
     </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="411dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="35sp">
+
+        <ImageView
+            android:id="@+id/iv_khan"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="81dp"
+            android:layout_toStartOf="@+id/iv_hellaro"
+            android:src="@drawable/khan" />
+
+        <TextView
+            android:id="@+id/tv_khan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_khan"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="1dp"
+            android:fontFamily="@font/audiowide"
+            android:text="My Name Is Khan"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_khan"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_below="@+id/tv_khan"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="142dp"
+            android:layout_toStartOf="@+id/bt_hellaro"
+            android:fontFamily="@font/audiowide"
+            android:text="PLAY" />
+
+        <ImageView
+            android:id="@+id/iv_hellaro"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="17dp"
+            android:src="@drawable/hellaro" />
+
+        <TextView
+            android:id="@+id/tv_hellaro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_hellaro"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="53dp"
+            android:fontFamily="@font/audiowide"
+            android:text="HELLARO"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_hellaro"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_below="@+id/tv_hellaro"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="47dp"
+            android:fontFamily="@font/audiowide"
+            android:text="play" />
+    </RelativeLayout>
     </LinearLayout>
 
 </ScrollView>

@@ -45,5 +45,21 @@ class bollywood : AppCompatActivity() {
             var intent = Intent(Intent.ACTION_VIEW, Uri.parse(bbhai))
             startActivity(intent)
         }
+
+        val bt5:androidx.appcompat.widget.AppCompatButton=findViewById(R.id.bt_khan)
+        var khan = "http://103.152.18.18/Data/Hindi/2000-2014/My%20Name%20Is%20Khan%20%282010%29/My%20Name%20Is%20Khan%202010%20Hindi%20BRRip%20720p%20x264%20AAC%205.1...Hon3y.mp4"
+
+        bt5.setOnClickListener {
+            var intent = Intent(Intent.ACTION_VIEW, Uri.parse(khan))
+            startActivity(intent)
+        }
+
+        val bt6:androidx.appcompat.widget.AppCompatButton=findViewById(R.id.bt_hellaro)
+        val hellaro = "http://ir2.papionvod.ir/Media/Movies/Orginal/Subbed/2019/Hellaro%20%282019%29%20480p.mp4"
+
+        bt6.setOnClickListener {
+            var intent = Intent(Intent.ACTION_VIEW, Uri.parse(hellaro))
+            startActivity(intent)
+        }
     }
 }
