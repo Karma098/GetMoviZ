@@ -32,7 +32,8 @@ class hollywood : AppCompatActivity() {
         showMovie(findViewById(R.id.bt_mat_relo)), showMovie(findViewById(R.id.bt_mat_revo)), showMovie(findViewById(R.id.bt_signs)),
         showMovie(findViewById(R.id.bt_sixth)), showMovie(findViewById(R.id.bt_unbreakable)), showMovie(findViewById(R.id.bt_split)),
         showMovie(findViewById(R.id.bt_glass)), showMovie(findViewById(R.id.bt_searching)), showMovie(findViewById(R.id.bt_batman_begins)),
-        showMovie(findViewById(R.id.bt_dark_knight)), showMovie(findViewById(R.id.bt_dark_rises)), showMovie(findViewById(R.id.bt_man_of_steel)))
+        showMovie(findViewById(R.id.bt_dark_knight)), showMovie(findViewById(R.id.bt_dark_rises)), showMovie(findViewById(R.id.bt_man_of_steel)),
+        showMovie(findViewById(R.id.bt_platform)), showMovie(findViewById(R.id.bt_get_out)))
 
         var link: Array<String> = arrayOf("http://vdomela.com/d_drive/English/Drama/Prisoners%20(2013)/Prisoners%20(2013).mp4",
             "https://dl.odcloud01.workers.dev/HollyWood/Spider-Man.No.Way.Home.2021.HDTV/Spider-Man.No.Way.Home.2021.720p.HDTC.HINDI.DUB-DudeFilms.in.mkv",
@@ -57,7 +58,9 @@ class hollywood : AppCompatActivity() {
             "https://dl3.3rver.org/cdn2/04/film/2005/batman.begins/Batman.Begins.2005.720p.mkv",
             "http://162.12.215.254/Data/Movies/Dual%20Audio/2020/The%20Dark%20Knight%202008%20IMAX%20Hindi%20ORG%20Dual%20Audio%20720p%20BluRay%201.1GB%20ESub/The%20Dark%20Knight%202008%20IMAX%20Hindi%20ORG%20Dual%20Audio%20720p%20BluRay%201.1GB%20ESub.mkv",
             "http://103.222.20.150/ftpdata/Movies/Hollywood/2012/The%20Dark%20Knight%20Rises%20%282012%29/The%20Dark%20Knight%20Rises%202012.mp4",
-            "http://162.12.215.254/Data/Movies/Dual%20Audio/2020/Man%20Of%20Steel%20%282013%29%20Dual%20Audio%20Hindi%20720p%20BluRay%20x264/Man%20Of%20Steel%20%282013%29%20Dual%20Audio%20Hindi%20720p%20BluRay%20x264%20ESub.mkv")
+            "http://162.12.215.254/Data/Movies/Dual%20Audio/2020/Man%20Of%20Steel%20%282013%29%20Dual%20Audio%20Hindi%20720p%20BluRay%20x264/Man%20Of%20Steel%20%282013%29%20Dual%20Audio%20Hindi%20720p%20BluRay%20x264%20ESub.mkv",
+            "https://dl3.3rver.org/cdn2/05/film/2019/The.Platform/The.Platform.2019.WEB-DL.720p.Pahe.x264.mkv",
+            "http://162.12.215.254/Data/Movies/Hollywood/2016_2017/Get%20Out%20%282017%29/Get%20Out%202017%20720p%2010bit%20BluRay%206CH%20x265%20HEVC%20PSA.mkv")
 
 
         for((i,e) in link.withIndex()){
